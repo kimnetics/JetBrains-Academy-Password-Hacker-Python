@@ -27,3 +27,12 @@ python hack.py host port
 `host` is the ip address of the server to hack.
 
 `port` is the port on the server to hack.
+
+The application returns a JSON structure like the following:
+
+```
+{
+    "login" : "su",
+    "password" : "Sp?f4UTh"
+}
+```
